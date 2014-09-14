@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class _4Smallest3Numb {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double a = input.nextDouble();
+		double b = input.nextDouble();
+		double c = input.nextDouble();
+		if (a < b && a < c) {
+			System.out.println(a);
+		}
+		if (b < a && b < c) {
+			System.out.println(b);
+		}
+		if (c < b && c < a) {
+			System.out.println(c);
+		}
+	}
+}
