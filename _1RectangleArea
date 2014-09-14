@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class _1RecArea {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int firstSide = input.nextInt();
+		int secondSide = input.nextInt();
+		System.out.println(firstSide * 2 + secondSide * 2);
+	}
+}
